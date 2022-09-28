@@ -1,0 +1,25 @@
+{
+  "name": "cursocypressubp",
+  "version": "1.0.0",
+  "description": "Curso de Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoxs/Curso-de-Cypress.git"
+  },
+  "keywords": [
+    "Yoxsbel"
+  ],
+  "author": "Yoxsbel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yoxs/Curso-de-Cypress/issues"
+  },
+  "homepage": "https://github.com/Yoxs/Curso-de-Cypress#readme",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  }
+}
