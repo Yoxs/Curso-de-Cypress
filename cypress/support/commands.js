@@ -23,3 +23,20 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+// Llama al servicio acorde al primer parametro enviado
+// @method callService
+// @param {string} lastUrl : ultima parte del endpoint que se concatenará con el resto
+// @param {string} fileName : Nombre del archivo de salida
+
+Cypress.Commands.add ('callService', (lastUrl, fileName) => {
+
+    cy.request({
+        method: "GET",
+        url: 'https://edenapi.edenentradas.com.ar/edenventarestapi2/api/contenido/' + lastUrl,
+      }).then((response) => {
+        expect(response.status).to.eq(200);
+        cy.log(JSON.stringify(response));
+        cy.writeFile('cypress/fixtures/eden/'+fileName+'eden.json' , response.body)
+      })
+} )

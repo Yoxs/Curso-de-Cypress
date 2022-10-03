@@ -1,6 +1,12 @@
 {
-    "user": "agusDarwoft",
-    "password": "automation"
-    
-  }
+
+  "user": [
+    {"user": "agusDarwoft",
+    "password": "automation"},
+
+    {"user": "yoxsbel",
+    "password": "automation"}
+
+  ]
+}
   
