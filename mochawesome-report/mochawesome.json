@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-03T01:15:57.396Z",
+    "end": "2022-10-03T01:16:46.994Z",
+    "duration": 49598,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "730049fd-6c3f-41b0-90fa-7496a870e2ab",
+      "title": "",
+      "fullFile": "cypress/integration/1-getting-started/login.spec.js",
+      "file": "cypress/integration/1-getting-started/login.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "55dd5489-1d4a-4ceb-a304-016882bc218c",
+          "title": "example to-do app",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Header",
+              "fullTitle": "example to-do app Header",
+              "timedOut": null,
+              "duration": 11169,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const header = new _header.default();\nheader.getLoginRegisterButon().click();",
+              "err": {},
+              "uuid": "7019a866-816a-497c-a895-6632bb408972",
+              "parentUUID": "55dd5489-1d4a-4ceb-a304-016882bc218c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login Fail",
+              "fullTitle": "example to-do app Login Fail",
+              "timedOut": null,
+              "duration": 7272,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const header = new _header.default();\nconst login = new _Login.default();\nheader.getLoginRegisterButon().click();\nlogin.getinputuser().click();\nlogin.getinputuser().type('Yoxsbel');\nlogin.getinputpass().click();\nlogin.getinputpass().type('pass1234');\nlogin.getloginBtn().click();",
+              "err": {},
+              "uuid": "17ff5856-deed-41eb-a8ac-3c8836b3ff9c",
+              "parentUUID": "55dd5489-1d4a-4ceb-a304-016882bc218c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login OK",
+              "fullTitle": "example to-do app Login OK",
+              "timedOut": null,
+              "duration": 7358,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const header = new _header.default();\nconst login = new _Login.default();\nheader.getLoginRegisterButon().click();\nlogin.getinputuser().click();\nlogin.getinputuser().type('agusDarwoft');\nlogin.getinputpass().click();\nlogin.getinputpass().type('automation');\nlogin.getloginBtn().click();",
+              "err": {},
+              "uuid": "89918e8d-7a7b-4f01-b915-25201261938d",
+              "parentUUID": "55dd5489-1d4a-4ceb-a304-016882bc218c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login OK con Data",
+              "fullTitle": "example to-do app Login OK con Data",
+              "timedOut": null,
+              "duration": 8962,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const header = new _header.default();\nconst login = new _Login.default();\nheader.getLoginRegisterButon().click();\nlogin.getinputuser().click();\nlogin.getinputuser().type(_users.default.user[0].user);\nlogin.getinputpass().click();\nlogin.getinputpass().type(_users.default.user[0].password);\nlogin.getloginBtn().click();",
+              "err": {},
+              "uuid": "6f126de6-c55d-4e5d-b407-8617ba7ebb6c",
+              "parentUUID": "55dd5489-1d4a-4ceb-a304-016882bc218c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "account",
+              "fullTitle": "example to-do app account",
+              "timedOut": null,
+              "duration": 10299,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const header = new _header.default();\nconst login = new _Login.default();\nconst account = new _account.default();\nheader.getLoginRegisterButon().click();\nlogin.getinputuser().click();\nlogin.getinputuser().type('agusDarwoft');\nlogin.getinputpass().click();\nlogin.getinputpass().type('automation');\nlogin.getloginBtn().click();\naccount.getmanageaddressButon().click();",
+              "err": {},
+              "uuid": "0dad45df-a655-4db1-bf3d-bfd1ced926fd",
+              "parentUUID": "55dd5489-1d4a-4ceb-a304-016882bc218c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7019a866-816a-497c-a895-6632bb408972",
+            "17ff5856-deed-41eb-a8ac-3c8836b3ff9c",
+            "89918e8d-7a7b-4f01-b915-25201261938d",
+            "6f126de6-c55d-4e5d-b407-8617ba7ebb6c",
+            "0dad45df-a655-4db1-bf3d-bfd1ced926fd"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 45060,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
