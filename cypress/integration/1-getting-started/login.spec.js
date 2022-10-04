@@ -69,6 +69,19 @@ describe('example to-do app', () => {
       account.getmanageaddressButon().click();
         
           });
-            
 
+          //test visual
+          it("Test Visual", () => {
+            const header = new headerPage()
+            const login = new LoginPage()
+            const account = new accountPage()
+        
+            header.getLoginRegisterButon().click();
+            login.getinputuser().click();
+            login.getinputuser().type('agusDarwoft');
+            login.getinputpass().click();
+            login.getinputpass().type('automation');  
+          login. getloginBtn().should('have.css', 'background-color', 'rgb(242, 92, 39)');
+
+        });
 });
