@@ -16,7 +16,7 @@ describe('example to-do app', () => {
 
   });
 
-  it("Login Fail", () => {
+  it("Login Fail", {tags:'@regression'}, () => {
     const header = new headerPage()
     const login = new LoginPage()
 

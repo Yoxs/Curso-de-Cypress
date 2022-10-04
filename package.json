@@ -4,7 +4,7 @@
   "description": "Curso de Cypress",
   "main": "index.js",
   "scripts": {
-    "cypress:run:regression:desktop:test": "npx cypress run -e baseUrl=https://automationteststore.com/ -s cypress/integration/1-getting-started/*.spec.js",
+    "cypress:run:regression:desktop:test": "npx cypress run -e baseUrl=https://automationteststore.com/,gretTags=@regression -s cypress/integration/1-getting-started/*.spec.js",
     "cypress:open:mobile:test": "npx cypress open -c viewportWidth=375,viewportHeight=667 -e baseUrl=https://automationteststore.com/"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "dependencies": {
     "ajv": "^8.11.0",
     "cypress": "^9.7.0",
+    "cypress-grep": "^2.14.0",
     "cypress-mochawesome-reporter": "^3.2.2"
   }
 }

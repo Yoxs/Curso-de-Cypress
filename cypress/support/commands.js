@@ -23,6 +23,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+require('cypress-grep')();
 
 // Llama al servicio acorde al primer parametro enviado
 // @method callService
