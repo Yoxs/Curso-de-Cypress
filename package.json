@@ -4,7 +4,8 @@
   "description": "Curso de Cypress",
   "main": "index.js",
   "scripts": {
-    "cypress:run:regression:test": "npx cypress run -e baseUrl=https://automationteststore.com/ -s cypress/integration/1-getting-started/*.spec.js"
+    "cypress:run:regression:desktop:test": "npx cypress run -e baseUrl=https://automationteststore.com/ -s cypress/integration/1-getting-started/*.spec.js",
+    "cypress:open:mobile:test": "npx cypress open -c viewportWidth=375,viewportHeight=667 -e baseUrl=https://automationteststore.com/"
   },
   "repository": {
     "type": "git",
