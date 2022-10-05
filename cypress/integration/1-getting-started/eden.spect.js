@@ -3,7 +3,7 @@
 
 describe('Test de Pagina Eden', () => {
  
-  it("Llamada a Servicio", () => {
+  it("Llamada a Servicio", {tags:'@regression'}, () => {
 
     cy.request({
       method: "GET",
@@ -16,11 +16,11 @@ describe('Test de Pagina Eden', () => {
 
   });
 
-  it("Llamada a Servicio con commmands: /inicio", () => {
+  it("Llamada a Servicio con commmands: /inicio", {tags:'@regression'}, () => {
     cy.callService('inicio','espectaculo');
   });
 
-  it("Llamada a Servicio con commmands: /puntosdeventas", () => {
+  it("Llamada a Servicio con commmands: /puntosdeventas", {tags:'@regression'}, () => {
     cy.callService('puntosdeventas','venta');
   });
 

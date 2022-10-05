@@ -9,7 +9,7 @@ describe('example to-do app', () => {
      cy.visit("https://automationteststore.com")
   });
 
-  it("Header", () => {
+  it("Header",  {tags:'@regression'}, () => {
   const header = new headerPage()
 
   header.getLoginRegisterButon().click();
@@ -29,7 +29,7 @@ describe('example to-do app', () => {
   
     });
 
-    it("Login OK", () => {
+    it("Login OK", {tags:'@regression'}, () => {
       const header = new headerPage()
       const login = new LoginPage()
   
@@ -42,7 +42,7 @@ describe('example to-do app', () => {
     
       });
 
-      it("Login OK con Data", () => {
+      it("Login OK con Data", {tags:'@regression'}, () => {
         const header = new headerPage()
         const login = new LoginPage()
     
@@ -55,7 +55,7 @@ describe('example to-do app', () => {
       
         });   
 
-        it("account", () => {
+        it("account", {tags:'@regression'}, () => {
       const header = new headerPage()
       const login = new LoginPage()
       const account = new accountPage()
@@ -71,7 +71,7 @@ describe('example to-do app', () => {
           });
 
           //test visual
-          it("Test Visual", () => {
+          it("Test Visual", {tags:'@regression'}, () => {
             const header = new headerPage()
             const login = new LoginPage()
             const account = new accountPage()

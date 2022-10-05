@@ -93,50 +93,27 @@
       "FechaPrimerEspectaculo": "20230218"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221021skay.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/lpda-eden.png",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Skay y los Fakires",
-      "Fecha": "Viernes 21 de Octubre 21hs",
+      "Nombre": "Las Pastillas del Abuelo",
+      "Fecha": "Viernes 2 de Diciembre 21hs",
       "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW006057",
+      "Codigo": "SHOW005986",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC020948",
-          "Fecha": "2022-10-21T21:00:00",
-          "FechaString": "21 de octubre",
-          "DiaString": "21",
-          "MesString": "octubre",
+          "Codigo": "FUNC020704",
+          "Fecha": "2022-12-02T21:00:00",
+          "FechaString": "2 de diciembre",
+          "DiaString": "02",
+          "MesString": "diciembre",
           "HoraString": "21:00 Hs",
           "Ciudad": "Córdoba",
           "Estadio": "Plaza de la Musica"
         }
       ],
-      "FechaPrimerEspectaculo": "20221021"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221004polinesio.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Los Polinesios",
-      "Fecha": "Martes 4 de Octubre 19hs",
-      "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW006068",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021011",
-          "Fecha": "2022-10-04T19:00:00",
-          "FechaString": "4 de octubre",
-          "DiaString": "04",
-          "MesString": "octubre",
-          "HoraString": "19:00 Hs",
-          "Ciudad": "Cordoba",
-          "Estadio": "Plaza de la Musica"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20221004"
+      "FechaPrimerEspectaculo": "20221202"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221126doq.jpg",
@@ -265,27 +242,27 @@
       "FechaPrimerEspectaculo": "20221014"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/lpda-eden.png",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221021skay.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Las Pastillas del Abuelo",
-      "Fecha": "Viernes 2 de Diciembre 21hs",
+      "Nombre": "Skay y los Fakires",
+      "Fecha": "Viernes 21 de Octubre 21hs",
       "Lugar": "Plaza de la Musica",
-      "Codigo": "SHOW005986",
+      "Codigo": "SHOW006057",
       "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC020704",
-          "Fecha": "2022-12-02T21:00:00",
-          "FechaString": "2 de diciembre",
-          "DiaString": "02",
-          "MesString": "diciembre",
+          "Codigo": "FUNC020948",
+          "Fecha": "2022-10-21T21:00:00",
+          "FechaString": "21 de octubre",
+          "DiaString": "21",
+          "MesString": "octubre",
           "HoraString": "21:00 Hs",
           "Ciudad": "Córdoba",
           "Estadio": "Plaza de la Musica"
         }
       ],
-      "FechaPrimerEspectaculo": "20221202"
+      "FechaPrimerEspectaculo": "20221021"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221029biza.jpg",
@@ -893,6 +870,29 @@
       "FechaPrimerEspectaculo": "20221106"
     },
     {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2022-09-08 at 20.49.09.jpeg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Marama",
+      "Fecha": "Viernes 14 de Octubre 22hs",
+      "Lugar": "El Perla Eventos",
+      "Codigo": "SHOW006079",
+      "Categorias": "[\"todos\",\"CON\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC021034",
+          "Fecha": "2022-10-14T22:00:00",
+          "FechaString": "14 de octubre",
+          "DiaString": "14",
+          "MesString": "octubre",
+          "HoraString": "22:00 Hs",
+          "Ciudad": "Villa Nueva",
+          "Estadio": "El Perla Eventos"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20221014"
+    },
+    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/alice.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -983,29 +983,6 @@
         }
       ],
       "FechaPrimerEspectaculo": "20221104"
-    },
-    {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2022-09-08 at 20.49.09.jpeg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Marama",
-      "Fecha": "Viernes 14 de Octubre 22hs",
-      "Lugar": "El Perla Eventos",
-      "Codigo": "SHOW006079",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021034",
-          "Fecha": "2022-10-14T22:00:00",
-          "FechaString": "14 de octubre",
-          "DiaString": "14",
-          "MesString": "octubre",
-          "HoraString": "22:00 Hs",
-          "Ciudad": "Villa Nueva",
-          "Estadio": "El Perla Eventos"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20221014"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2022-10-03 at 11.16.59.jpeg",
@@ -1153,29 +1130,6 @@
       "FechaPrimerEspectaculo": "20221015"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221007cbarock.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Córdoba Rockea",
-      "Fecha": "Viernes 7 de Octubre 21hs",
-      "Lugar": "Studio Theater",
-      "Codigo": "SHOW005928",
-      "Categorias": "[\"todos\",\"CON\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021070",
-          "Fecha": "2022-10-07T21:00:00",
-          "FechaString": "7 de octubre",
-          "DiaString": "07",
-          "MesString": "octubre",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Córdoba",
-          "Estadio": "Studio Theater"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20221007"
-    },
-    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221008lb.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -1199,24 +1153,24 @@
       "FechaPrimerEspectaculo": "20221008"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221007cachumba.jpg",
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221007cbarock.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
-      "Nombre": "Cachumba",
-      "Fecha": "Viernes 7 de Octubre 23.59hs",
-      "Lugar": "Viejo Molino",
-      "Codigo": "SHOW005805",
-      "Categorias": "[\"todos\",\"CUA\"]",
+      "Nombre": "Córdoba Rockea",
+      "Fecha": "Viernes 7 de Octubre 21hs",
+      "Lugar": "Studio Theater",
+      "Codigo": "SHOW005928",
+      "Categorias": "[\"todos\",\"CON\"]",
       "Espectaculos": [
         {
-          "Codigo": "FUNC021111",
-          "Fecha": "2022-10-07T23:59:00",
+          "Codigo": "FUNC021070",
+          "Fecha": "2022-10-07T21:00:00",
           "FechaString": "7 de octubre",
           "DiaString": "07",
           "MesString": "octubre",
-          "HoraString": "23:59 Hs",
+          "HoraString": "21:00 Hs",
           "Ciudad": "Córdoba",
-          "Estadio": "Viejo Molino"
+          "Estadio": "Studio Theater"
         }
       ],
       "FechaPrimerEspectaculo": "20221007"
@@ -1266,6 +1220,29 @@
         }
       ],
       "FechaPrimerEspectaculo": "20221106"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221007cachumba.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Cachumba",
+      "Fecha": "Viernes 7 de Octubre 23.59hs",
+      "Lugar": "Viejo Molino",
+      "Codigo": "SHOW005805",
+      "Categorias": "[\"todos\",\"CUA\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC021111",
+          "Fecha": "2022-10-07T23:59:00",
+          "FechaString": "7 de octubre",
+          "DiaString": "07",
+          "MesString": "octubre",
+          "HoraString": "23:59 Hs",
+          "Ciudad": "Córdoba",
+          "Estadio": "Viejo Molino"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20221007"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/whatsapp image 2022-03-16 at 16.46.11.jpeg",
@@ -1383,29 +1360,6 @@
       "FechaPrimerEspectaculo": "20221007"
     },
     {
-      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221120cacho.jpg",
-      "ImagenPortada": "",
-      "ImagenListado": "",
-      "Nombre": "Cacho Buenaventura",
-      "Fecha": "Domingo 20 de Noviembre 21hs",
-      "Lugar": "El Perla Eventos",
-      "Codigo": "SHOW006095",
-      "Categorias": "[\"todos\",\"TEA\"]",
-      "Espectaculos": [
-        {
-          "Codigo": "FUNC021103",
-          "Fecha": "2022-11-20T21:00:00",
-          "FechaString": "20 de noviembre",
-          "DiaString": "20",
-          "MesString": "noviembre",
-          "HoraString": "21:00 Hs",
-          "Ciudad": "Villa Nueva",
-          "Estadio": "El Perla Eventos"
-        }
-      ],
-      "FechaPrimerEspectaculo": "20221120"
-    },
-    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221022eldipy.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -1427,6 +1381,29 @@
         }
       ],
       "FechaPrimerEspectaculo": "20221022"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221120cacho.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Cacho Buenaventura",
+      "Fecha": "Domingo 20 de Noviembre 21hs",
+      "Lugar": "El Perla Eventos",
+      "Codigo": "SHOW006095",
+      "Categorias": "[\"todos\",\"TEA\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC021103",
+          "Fecha": "2022-11-20T21:00:00",
+          "FechaString": "20 de noviembre",
+          "DiaString": "20",
+          "MesString": "noviembre",
+          "HoraString": "21:00 Hs",
+          "Ciudad": "Villa Nueva",
+          "Estadio": "El Perla Eventos"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20221120"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221023salvalatarde.jpg",
@@ -1682,6 +1659,29 @@
       "FechaPrimerEspectaculo": "20221022"
     },
     {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221105testigo.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "Testigo",
+      "Fecha": "Sábado 5 de Noviembre 21hs - Show ATP",
+      "Lugar": "Wachitas Bar",
+      "Codigo": "SHOW006100",
+      "Categorias": "[\"todos\",\"CON\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC021115",
+          "Fecha": "2022-11-05T21:00:00",
+          "FechaString": "5 de noviembre",
+          "DiaString": "05",
+          "MesString": "noviembre",
+          "HoraString": "21:00 Hs",
+          "Ciudad": "Córdoba",
+          "Estadio": "Wachitas Bar"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20221105"
+    },
+    {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221021monada.jpg",
       "ImagenPortada": "",
       "ImagenListado": "",
@@ -1703,6 +1703,29 @@
         }
       ],
       "FechaPrimerEspectaculo": "20221021"
+    },
+    {
+      "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221126lamancha.jpg",
+      "ImagenPortada": "",
+      "ImagenListado": "",
+      "Nombre": "La Mancha de Rolando",
+      "Fecha": "Sábado 26 de Noviembre 23hs",
+      "Lugar": "Viejo Molino Multiespacio",
+      "Codigo": "SHOW005804",
+      "Categorias": "[\"todos\",\"CON\"]",
+      "Espectaculos": [
+        {
+          "Codigo": "FUNC021114",
+          "Fecha": "2022-11-26T23:00:00",
+          "FechaString": "26 de noviembre",
+          "DiaString": "26",
+          "MesString": "noviembre",
+          "HoraString": "23:00 Hs",
+          "Ciudad": "Córdoba",
+          "Estadio": "Viejo Molino"
+        }
+      ],
+      "FechaPrimerEspectaculo": "20221126"
     },
     {
       "Imagen": "https://static.edenentradas.com.ar/sitio/shows/20221009ceberio.jpg",
